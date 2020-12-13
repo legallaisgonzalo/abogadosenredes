@@ -25,7 +25,9 @@ header{
 main{
     background-color: #f3f4f5;
 }
-
+li{
+    list-style-type: none;
+}
 .a{
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -64,6 +66,7 @@ main{
     height: 50px;
     width: 180px;
     border-radius: 60px 60px 60px;
+    transition: 0.3s all ease-out;
 }
 .abtn:hover{
     box-shadow: 6px 6px 6px rgb(165, 165, 165);
@@ -132,6 +135,7 @@ h1.h1{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    list-style-type: none;
 }
 
 .gray{
@@ -174,7 +178,7 @@ li{
     font-weight: 400;
 }
 .datoscont{
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(238, 238, 238);
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -186,7 +190,7 @@ li{
     flex-direction: column;
 }
 .footer{
-    background-color: darkgray;
+    background-color: rgb(95, 95, 95);
     font-size: 15px;
     display: flex;
     justify-content: center;
@@ -202,6 +206,18 @@ a.f{
 a.f:hover{
     color: rgb(98, 20, 81);
     text-decoration: none;
+}
+.planesimg{
+    box-shadow: 4px 4px 4px  rgb(128, 128, 128);
+    transition: all 0.5s ease-in-out;
+}
+.planesimg:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.3);
+}
+.pi{
+    overflow: hidden;
+    height: auto;
 }
 .wpp{
     z-index: 999;
@@ -240,6 +256,15 @@ a.con:hover{
 h3.h3f{
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
+}
+.check{
+    height: 20px;
+    width: 25px;
+}
+
+.pircing{
+    text-shadow: gray 1px 1px 1px;
+
 }
 @media (max-width: 900px)
 {
