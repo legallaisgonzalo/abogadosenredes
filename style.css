@@ -3,6 +3,12 @@
     margin: 0;
     background-color: #fff;
 }
+.titulo{
+    color:rgb(106, 223, 53) ;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
 .anav-link{
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -135,6 +141,7 @@ h1.ht{
 
 }
 h1.h1{
+    color:rgb(106, 223, 53) ;
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -286,6 +293,32 @@ h3.h3f{
 .pircing{
     text-shadow: gray 1px 1px 1px;
 }
+label{
+    font-size: 18px;
+}
+.marian{
+    border-radius: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    transition: 0.3s;
+}
+.marian:hover{
+    border-radius: 0%;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    transition: 0.3s;
+
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+}
 @media (max-width: 900px)
 {
     h1.ht{
@@ -297,6 +330,7 @@ h3.h3f{
         font-weight: 800;
         padding: 10px;
     }
+    
     .rds{
         padding: 15px;
         font-size: 20px;
