@@ -7,7 +7,7 @@ $telefono = $_POST['Telefono'];
 $mensaje = $_POST['Mensaje'];
 
 // Datos del email
-$para = 'legallaisgonzalo@gmail.com';
+$para = $email;
 $titulo = 'S&S Solicitud de presupuesto';
 $header = 'From: ' . $email;
 $msjCorreo = "Nombre: $nombre\n Telefono: $telefono\n E-Mail: $email\n Mensaje:\n $mensaje";
