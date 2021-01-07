@@ -152,6 +152,12 @@
                     Creacion de nombre comercial, logo,
                      imagen general de la cuenta, definicion de paleta de colores.
                   </li>
+                  <li class="parrafo">
+                   <b>Opcional:</b> 
+                      Creación de página web.
+                      Posicionamiento de tu estudio en Google Maps.
+                  </li>
+
                   <li style="font-size: 14px;" class="parrafo col-12 col-sm-12 col-md-12 col-lg-12">
                     <i>* Se entrega carpeta en Drive con logo definido (con y sin fondo), plantillas con tu foto/logo y stickers
                     animados para utilizar en tus historias, plantillas y fondos para utilizar en tu post,tarjetas personales
@@ -336,9 +342,57 @@
                  </div>
               </div>
 
+<div style="background-color: rgb(240, 240, 240);" class="testimonios container-fluid">
+  <div class="container">
 
-            <div class="container">
+
+                <div class="test row">
+                  <h1 class="titulo">TESTIMONIOS</h1>
+                  <h3>Testimonios de clientes y seguidores</h3>
+                    <div class="col-12">
+
+                      <div class="w3-content w3-display-container">
+
+                        <img class="mySlides"  src="img/testimonios/1.jpg" >
+                        <img class="mySlides"  src="img/testimonios/2.jpg" >
+                        <img class="mySlides"  src="img/testimonios/3.jpg" >
+                        <img class="mySlides"  src="img/testimonios/4.jpg" >
+                        <img class="mySlides"  src="img/testimonios/5.jpg" >
+                        <img class="mySlides"  src="img/testimonios/6.jpg" >
+                      
+                        <button class="w3-button w3-black w3-display-left" style="width: 50px;" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right"  style="width: 50px;" onclick="plusDivs(1)">&#10095;</button>
+                      </div>
+
+                      <script>
+                      var slideIndex = 1;
+                      showDivs(slideIndex);
+                      
+                      function plusDivs(n) {
+                        showDivs(slideIndex += n);
+                      }
+                      
+                      function showDivs(n) {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        if (n > x.length) {slideIndex = 1}
+                        if (n < 1) {slideIndex = x.length}
+                        for (i = 0; i < x.length; i++) {
+                          x[i].style.display = "none";  
+                        }
+                        x[slideIndex-1].style.display = "block";  
+                      }
+                      </script>
+
+                  </div>
+                </div>
+              </div>
+</div>
+
+<div style="background-color: rgb(240, 240, 240);" class="container-fluid">
+  <div  class="card container shadow-lg">
                 <div class="row">
+                  <h1 class="titulo">DATOS DE CONTACTO</h1>
                       <div class="col-12 col-sm-12 col-lg-6 col-md-6">
 
                   <h3 class="h3f"> Contanos cuál es tu expectativa, que buscas lograr con tu actividad en 
@@ -365,28 +419,53 @@
                                     </form>
                         </div>
                       </div>
+
+                      <div class="col-12 col-sm-12 col-lg-6 col-md-6">
+                    <ul style="display: flex; flex-direction: column;">
+                    <p class="pcontact" href="">
+                    <img style="height: 40px; width: 40px;" src="img/gmail.png" alt="">
+                    abogadoscreciendoenredes@gmail.com
+                    </p>
+                    </ul>
+                        
                     <ul style="display: flex; flex-direction: row;">
                     <a class="con" href="https://www.instagram.com/abogadosenredesok/?hl=es-la">
-                    <img style="height: 60px; width: 60px;" src="img/Instagram_icon.png" alt=""> 
+                    <img style="height: 40px; width:40px;" src="img/Instagram_icon.png" alt=""> 
                     @abogadosenredesok
                     </a>
                     </ul>
 
-                  <ul style="display: flex; flex-direction: row;">
-                    <a class="pcontact" href="http://wa.link/t8hbt8">
-                    <img style="height: 60px; width: 60px;" src="img/whatsapp.png">  
-                    11 3758-2139
-                  </a>
-                  </ul>
+
+
+                    <ul style="display: flex; flex-direction: row;">
+                      <a class="pcontact" href="http://wa.link/t8hbt8">
+                      <img style="height: 40px; width: 40px;" src="img/whatsapp.png">  
+                      Marian 11 3758-2139 
+                    </a>
+                    </ul>
+                    
+                    <ul style="display: flex; flex-direction: row;">
+                      <a class="pcontact" href="http://wa.link/t8hbt8">
+                      <img style="height: 40px; width: 40px;" src="img/whatsapp.png">  
+                      Ezequiel 3416 90-2152
+                    </a>
+                    </ul>
 
                     </div>
                   </div>
 
-                <div id="fb-root"></div>
+                
+ 
+
+
+                      </div>
+</div>
+
+            
+                               
+<div id="fb-root"></div>
                 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v9.0" nonce="oz9eXAhl"></script>
                 <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
-            
-
 <!--
                 <ul style="display: flex; flex-direction: row;">
                     <img style="height: 60px; width: 60px;" src="img/fono.png">
