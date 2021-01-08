@@ -256,7 +256,7 @@ a.f:hover{
     text-align: center;
 }
 .pcontact{
-    font-size: 16px;
+    font-size: 26px;
     text-decoration: none;
     color: black;
     transition: all 0.3s ease-in;
@@ -267,18 +267,6 @@ a.f:hover{
     text-shadow: gray 2px 2px 2px;
     transition: all 0.3s ease-in;
 
-}
-a.con{
-    font-size: 16px;
-    text-decoration: none;
-    color: black;
-    transition: all 0.3s ease-in;
-}
-a.con:hover{
-    color: black;
-    text-decoration: none;
-    text-shadow: gray 2px 2px 2px;
-    transition: all 0.3s ease-in;
 }
 
 h3.h3f{
@@ -423,5 +411,11 @@ label{
     }
     .mySlides{
         height: 450px;
+    }
+    .pcontact{
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+        transition: all 0.3s ease-in;
     }
 }
