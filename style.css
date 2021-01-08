@@ -353,6 +353,21 @@ label{
 .mySlides{
     height: 650px;
 }
+.saludo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+}
+
 @media (max-width: 900px)
 {
     h1.ht{
