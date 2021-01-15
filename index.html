@@ -84,11 +84,11 @@
 
               <h1 class="titulo">Marian Villamil</h1>
 
-                <img class="marian" src="img/Marian.jpg" alt="">
+                <img class="marian" src="img/Marian.png" alt="">
               
                 <h1 class="titulo">Ezequiel Anton</h1> 
                         
-                <img class="marian" src="img/Eze.jpg" alt="">
+                <img class="eze" src="img/Eze.png" alt="">
 
 
                 </div>
@@ -392,23 +392,21 @@
                   </h3>
                 
                         <div class="form-group">
-                                    <form method="POST" action="enviar.php">
-                                      <div class="form-group">
-                                        <input class="form-control" type="text" name="nombre" placeholder="Nombre">
-                                      </div>
-                                      <div class="form-group">
-                                        <input class="form-control" type="text" name="email" placeholder="Email"> 
-                                      </div> 
-                                      <div class="form-group">
-                                        <input class="form-control" type="text" name="telefono" placeholder="Telefono">
-                                      </div>
-                                      <div class="form-group">
-                                        <textarea class="form-control" name="Mensaje" placeholder="Tu mensaje aqui"></textarea>
-                                      </div>
-                                        
-                                        
-                                        <input class="btn btn-primary" type="submit" name="submit" value="Enviar">
-                                    </form>
+                          <form method="POST" action="enviar.php">
+                            <div class="form-group">
+                              <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Nombre">
+                            </div>
+                            <div class="form-group">
+                              <input class="form-control" type="text" id="email" name="email" placeholder="Email"> 
+                            </div> 
+                            <div class="form-group">
+                              <input class="form-control" name="numero" type="number" id="numero" placeholder="Telefono">
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control" name="mensaje" id="mensaje" placeholder="Tu mensaje aqui"></textarea>
+                            </div>
+                              <input class="btn btn-primary" type="submit" name="submit" value="Enviar">
+                          </form>
                         </div>
                       </div>
 
